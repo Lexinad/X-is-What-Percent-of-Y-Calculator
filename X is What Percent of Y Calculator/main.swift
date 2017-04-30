@@ -30,9 +30,9 @@ if CommandLine.arguments.count != 3 {
     do {
         try calcAns()
     } catch XYPercentError.invalidX {
-        print("Error: Invalid x")
+        print("Error: x must be a real number")
     } catch XYPercentError.invalidY {
-        print("Error: Invalid y")
+        print("Error: y must be a real number")
     }
 
 }
