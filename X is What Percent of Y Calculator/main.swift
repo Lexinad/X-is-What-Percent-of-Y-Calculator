@@ -25,7 +25,7 @@ func calcAns() throws -> Void {
 
 
 if CommandLine.arguments.count != 3 {
-    print("Usage: ./xyPercentCalc <x> <y>")
+    print("Usage: xyPercentCalc <x> <y>")
 } else {
     do {
         try calcAns()
