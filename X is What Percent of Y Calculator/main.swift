@@ -19,7 +19,7 @@ enum XYPercentError: Error {
 
 
 /// Given two numbers x and y, answers "x is what percent of y?"
-/// by printing to the screen "x is ans% of y"
+/// by printing to the screen "x is ans% of y" where ans = 100 * x / y
 /// - Throws: `XYPercentError.invalidX` if x isn't a real number or
 /// `XYPercentError.invalidY` if y isn't a real number
 func calcAns() throws -> Void {
